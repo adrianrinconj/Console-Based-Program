@@ -10,6 +10,7 @@ def print_menu():
     print("2. Search for book by ID number")
     print("3. Return book")
     print("4. Check out book")
+
     print("5. Exit\n")
 
 
@@ -116,5 +117,3 @@ def main():
                 print("Sorry, that number is not an option. Please select a number from the list.")
                 option == 0
 
-
-main()
